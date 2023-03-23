@@ -1,7 +1,6 @@
-.App {
+.App1 {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +20,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(49, 27, 198);
 }
 
 .App-link {
@@ -36,3 +35,18 @@
     transform: rotate(360deg);
   }
 }
+.App-header{
+  color:brown;
+}
+img{
+ width: 50%;
+ height: 40%;
+}
+footer{
+  background-color: black;
+  height: 15rem;
+}
+.image1{
+  max-width: 100%;
+}
+

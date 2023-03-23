@@ -1,0 +1,36 @@
+.carousel {
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 5px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(208, 182, 182, 0.5);
+}
+.slider1{
+    width:100%;
+    height: 90%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    border: 2px solid rgb(0, 0, 0);
+    /*background: radial-gradient(#269ad9,#0a88e9);*/
+    background-color: white;
+    border-radius: 1rem;
+    padding:2rem;
+}
+.sliderImg img{
+    width:100px;
+    height:100px;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.sliderImg{
+  background-color: thistle;
+}
+.sliderPara{
+  text-align: justify;
+  margin-top: 1rem;
+}

@@ -1,0 +1,61 @@
+.Container{
+    display:grid;
+    grid-template-rows: 1fr 6fr;
+    background-color: transparent;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Container .header{
+    font-weight: 600;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 10rem;
+}
+.cardcontainer{
+    width:70%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    /* height: 95%; */
+    border: 2px solid rgb(0, 0, 0);
+    /*background: radial-gradient(#269ad9,#0a88e9);*/
+    background-color: white;
+    border-radius: 1rem;
+    padding:2rem;
+}
+.cardcontainer:hover{
+    background-color: #73e1f0;
+}
+.headline{
+    margin-top:2rem;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 2rem;
+}
+.paragraph{
+    margin-top:2rem;
+    font-size: 1.4rem;
+    color: black;
+}
+.image img{
+    width:150px;
+    height:150px;
+}
+.btn{
+    color: whitesmoke;
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 12rem;
+    background-color: black;
+}
+.btn:hover{
+    background-color: white;
+    color: #13C5DD;
+}
+.App2{
+    align-items: center;
+}
